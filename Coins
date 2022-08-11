@@ -1,0 +1,10 @@
+#include <stdio.h>
+    int arrange coins(int n)
+    {
+       int k=1;
+       while(k<=n) 
+       {
+           n-=k++;
+       } 
+       return k-1;
+       }
